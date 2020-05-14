@@ -22,3 +22,15 @@
 
 ![Whiteboard](./assets/array-shift.jpg)
 
+## Array Binary Search
+* Create a function with two parameters: a sorted list and a search key. Return the index of the search key or -1 if the search key is not in the sorted list.
+
+## Approach and Efficiency
+* I haven't solved it, yet. 
+
+## Solution
+* pending
+
+![Whiteboard](./assets/array_binary_search.jpg)
+
+
