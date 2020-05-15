@@ -33,4 +33,15 @@
 
 ![Whiteboard](./assets/array_binary_search.jpg)
 
+## Array Matrix
+* Create a functionto add up the sum of each row in a matrix of arbitrary size and return an array with the appropriate values.
+
+## Approach and Efficiency
+* My approach is to loop through the main array and then loop through the row, summing the numbers as the function loops. After looping through the matrix, push the sums to a new array that then print out the appropriate values.
+
+## Solution
+* pending
+
+![Whiteboard](./assets/array_matrix.jpg)
+
 
