@@ -55,3 +55,12 @@
 * [Creating Linked Lists in Python!](https://www.educative.io/edpresso/how-to-create-a-linked-list-in-python)
 * [Showing Curly Braces inside Curly Braces Explanation!](https://stackoverflow.com/questions/5466451/how-can-i-print-literal-curly-brace-characters-in-python-string-and-also-use-fo)
 
+
+
+# Linked List Insertions
+## Challenge
+* Create a three methods: one that appends to the end of a list, one that inserts before a node, and one that inserts after a node.
+## Approach and Efficiency
+* I used various online resources and the class demo to stitch something together. It still needs work. Specifically, the insert before method.
+## API
+* [Methods for insert after and append!](https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/)
