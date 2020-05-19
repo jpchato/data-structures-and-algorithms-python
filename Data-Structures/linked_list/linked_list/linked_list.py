@@ -23,11 +23,32 @@ class LinkedList:
     # solution found @ geeksforgeeks.org/search-an-element-in-a-linkedlist-iterative-and-recursive/
     def includes(self, value):
         current = self.head
-        while current != None
-            if current.value = value
+        while current != None:
+            if current.value == value:
                 return True
             current = current.next
         return False
+
+    # solution found @ https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/
+    def append_to_list(self, new_value):
+        new_node = Node(new_value)
+        if self.head is None:
+            self.head = new_node
+            return
+        last = self.head
+        while(last.next):
+            last = last.next
+        last.next = new_node
+
+    # solution found @ https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/
+    def insert_after(self, previous_node, new_value):
+        if previous_node is None:
+            return
+        new_node = Node(new_value)
+        new_node.next = previous_node.next
+        previous_node.next = new_node
+
+    
 
 
 class Node:

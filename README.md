@@ -26,7 +26,7 @@
 * Create a function with two parameters: a sorted list and a search key. Return the index of the search key or -1 if the search key is not in the sorted list.
 
 ## Approach and Efficiency
-* I haven't solved it, yet. 
+* I haven't solved it, yet.
 
 ## Solution
 * pending
@@ -44,4 +44,14 @@
 
 ![Whiteboard](./assets/array_matrix.jpg)
 
+# Singly Linked List
+## Challenge
+* Create a linked list with various methods: insert, includes, and `__str__`.
+## Approach and Efficiency
+* I used various online resources and the class demo to stitch something together. It still needs work.
+## API
+* [Includes method documentation!](https://www.geeksforgeeks.org/search-an-element-in-a-linked-list-iterative-and-recursive/)
+* [Understanding F strings!](https://realpython.com/python-f-strings/)
+* [Creating Linked Lists in Python!](https://www.educative.io/edpresso/how-to-create-a-linked-list-in-python)
+* [Showing Curly Braces inside Curly Braces Explanation!](https://stackoverflow.com/questions/5466451/how-can-i-print-literal-curly-brace-characters-in-python-string-and-also-use-fo)
 
