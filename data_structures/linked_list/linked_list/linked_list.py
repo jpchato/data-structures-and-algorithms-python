@@ -48,7 +48,24 @@ class LinkedList:
         new_node.next = previous_node.next
         previous_node.next = new_node
 
-    
+    # https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
+    def kth_from_end(self, k):
+        temp = self.head
+        length = 0
+
+        while temp is not None:
+            temp = temp.next
+            length += 1
+
+        if k > length:
+            raise Exception("k cannot be larger than the length of the list")
+            return
+        temp = self.head
+        for i in range(0, length - k)
+            temp = temp.next
+        print(temp.value)
+
+
 
 
 class Node:

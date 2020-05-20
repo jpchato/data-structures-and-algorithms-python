@@ -64,3 +64,11 @@
 * I used various online resources and the class demo to stitch something together. It still needs work. Specifically, the insert before method.
 ## API
 * [Methods for insert after and append!](https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/)
+
+# Linked List Insertions
+## Challenge
+* Create a method that prints the node that is k indices from the end where k is a parameter passed into the function.
+## Approach and Efficiency
+* It has one for loop which means it is O(n). The solution is based heavily on a resource I found online, I did not copy/paste and I'm doing my best to understand it.
+## API
+* [Method for find/print nth node from the end of a list!](https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/)
