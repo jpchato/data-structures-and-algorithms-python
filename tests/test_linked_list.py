@@ -1,4 +1,4 @@
-from linked_list import LinkedList
+from linked_list import Node, LinkedList
 
 def test_instance():
     ll = LinkedList
@@ -21,3 +21,13 @@ def test_str():
     ll.insert("apples")
     ll.insert("bananas")
     assert str(ll) == "{ bananas } -> { apples } -> NULL"
+
+def test_kth_method():
+    ll = LinkedList()
+    ll.insert(1)
+    ll.append(2)
+    ll.append(3)
+    ll.append(4)
+    ll.append(5)
+
+    assert ll.kth_from_end(1) == 4
