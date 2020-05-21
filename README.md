@@ -72,3 +72,11 @@
 * It has one for loop which means it is O(n). The solution is based heavily on a resource I found online, I did not copy/paste and I'm doing my best to understand it.
 ## API
 * [Method for find/print nth node from the end of a list!](https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/)
+
+# Linked List Merge
+## Challenge
+* Create a functino that merges two separate lists into one new list whcih alternates the nodes from the two lists into the new list
+## Approach and efficiency
+* It has one while loop which means it's efficiency is O(n).
+## API
+* [Geeks for Geeks Solution!](https://www.geeksforgeeks.org/merge-a-linked-list-into-another-linked-list-at-alternate-positions/)
