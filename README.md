@@ -80,3 +80,11 @@
 * It has one while loop which means it's efficiency is O(n).
 ## API
 * [Geeks for Geeks Solution!](https://www.geeksforgeeks.org/merge-a-linked-list-into-another-linked-list-at-alternate-positions/)
+
+# Stack and Queue Implementation
+## Challenge
+* Create a stack class with push, pop, peek, and isEmpty methods. Create a queue class with enqueue, dequeue, peek, and isEmpty methods.
+## Approach and efficiency
+* O(1)
+## API
+* [Youtube Tutorial!](https://www.youtube.com/watch?v=rQpP7CD6zqY&t=205s)

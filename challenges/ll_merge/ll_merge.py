@@ -20,3 +20,4 @@ def mergeLists(self, other_list):
         list2_curr = list2_next
     other_list.head = list2_curr
 
+
