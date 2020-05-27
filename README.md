@@ -63,7 +63,7 @@
 ## Approach and Efficiency
 * I used various online resources and the class demo to stitch something together. It still needs work. Specifically, the insert before method.
 ## API
-* [Methods for insert after and append!](https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/)
+* [Methods for insert after and append](https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/)
 
 # Linked List Insertions
 ## Challenge
@@ -71,7 +71,7 @@
 ## Approach and Efficiency
 * It has one for loop which means it is O(n). The solution is based heavily on a resource I found online, I did not copy/paste and I'm doing my best to understand it.
 ## API
-* [Method for find/print nth node from the end of a list!](https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/)
+* [Method for find/print nth node from the end of a list](https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/)
 
 # Linked List Merge
 ## Challenge
@@ -79,7 +79,7 @@
 ## Approach and efficiency
 * It has one while loop which means it's efficiency is O(n).
 ## API
-* [Geeks for Geeks Solution!](https://www.geeksforgeeks.org/merge-a-linked-list-into-another-linked-list-at-alternate-positions/)
+* [Geeks for Geeks Solution](https://www.geeksforgeeks.org/merge-a-linked-list-into-another-linked-list-at-alternate-positions/)
 
 # Stack and Queue Implementation
 ## Challenge
@@ -87,4 +87,13 @@
 ## Approach and efficiency
 * O(1)
 ## API
-* [Youtube Tutorial!](https://www.youtube.com/watch?v=rQpP7CD6zqY&t=205s)
+* [Youtube Tutorial](https://www.youtube.com/watch?v=rQpP7CD6zqY&t=205s)
+
+# Queue with Stacks
+![Whiteboard](assets/queue-with-stacks.jpg)
+## Challenge
+* Create a a queue using two stacks
+## Approach and efficiency
+* Push items out of list1 into list 2 using a last in first out approach. Then push items out of list into the queue that uses a first in first out approach.
+## API
+* [Youtube Tutorial](https://www.youtube.com/watch?v=jKGkphPsnSI)
