@@ -97,3 +97,18 @@
 * Push items out of list1 into list 2 using a last in first out approach. Then push items out of list into the queue that uses a first in first out approach.
 ## API
 * [Youtube Tutorial](https://www.youtube.com/watch?v=jKGkphPsnSI)
+
+# Fifo Animal Shelter
+
+## Challenge Description
+* Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach. 
+* Implement the following methods:
+    * enqueue(animal): adds animal to the shelter. animal can be either a dog or a cat object.
+    * dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then return null
+
+## Approach & Efficiency
+* I have not solved it.
+* I used previous code demos to build out the queue, stack, and node. I tried to build something for enqueue and dequeue
+
+## Whiteboard
+ ![Whiteboard](assets/fifo-animal_shelter.jpg)
