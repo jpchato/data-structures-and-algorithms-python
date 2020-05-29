@@ -112,3 +112,19 @@
 
 ## Whiteboard
  ![Whiteboard](assets/fifo-animal_shelter.jpg)
+
+
+# Multi Bracket Validation
+
+## Challenge Description
+* Create a function that takes strings as its argument and should return a boolean representing whether or not the brakets in the string are balanced (), [], {}
+
+## Approach & Efficiency
+* [Reference Material](https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-python/)
+* The solution creates two lists that hold the bracket values we're checking
+* In the function it creates an empty stack it appends to from the str parameter. It checks the input string against the two lists that hold bracket values. It then pops off matching pairs and returns true when the length of the list in the function is 0.
+* Time O(n)
+* space idk - o(n) ....it creates three lists
+
+## Whiteboard
+ ![Whiteboard](assets/multi_bracket_validation.jpg)
