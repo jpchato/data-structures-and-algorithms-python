@@ -128,3 +128,20 @@
 
 ## Whiteboard
  ![Whiteboard](assets/multi_bracket_validation.jpg)
+
+
+# Trees
+
+## Challenge
+* Create a Node class that has properties for the value sotred in the node, the left child node, and the right child node.
+* Create a binaryTree class
+    * Define a moethod for each of the depth first traversals called pre_order, in_order, and post_order which returns an array of the values ordered appropriately
+* Create a BinarySearchTree class
+    * Define a method named add that accepts a value, and adds a new node with that value in the correct location in the binary search tree
+    * Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once
+
+## Approach & Efficiency
+*
+
+## API
+* [Class Demo](https://github.com/codefellows/seattle-python-401d14/tree/master/class-15/binary_tree)
