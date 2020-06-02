@@ -74,22 +74,19 @@ class BST(BinaryTree):
 
     def contains(self, value):
         pass
-        # I've been at this for 5 hours. I'm done.
-            
- 
+        
+def fizz_buzz_tree(Tree):
+    def fizz_num_check(num):
+        fb_node = None
+        if num % 3 == 0:
+            fb_node = "Fizz"
+        if num % 5 == 0:
+            fb_node = "Buzz"
+        if num % 15 == 0:
+            fb_node == "FizzBuzz"
+        elif:
+            return str(num)
+        return fb_node
 
 
 
-
-# bst = BST()
-# bst.add(4)
-# bst.add(7)
-# bst.add(5)
-# bst.add(9)
-# bst.add(2)
-# bst.add(30)
-# bst.add(-1)
-# print(bst.pre_order())
-# print(bst.post_order())
-# print(bst.in_order())
-# print(bst.contains(675))

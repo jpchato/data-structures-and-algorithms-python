@@ -145,3 +145,20 @@
 
 ## API
 * [Class Demo](https://github.com/codefellows/seattle-python-401d14/tree/master/class-15/binary_tree)
+
+# Challenge Summary
+* FizzBuzz Tree
+
+## Challenge Description
+* Write a function called FizzBuzzTree which takes a tree as an argument
+* Without utilizing any of the built in methods available to python, determine whether or not the value of each node is divisible by, 3, 5, both, or none. Create a new tree with the same structure as the original, but with modified values:
+    * if divisible by 3, "Fizz"
+    * if divisible by 5,"Buzz"
+    * if divisible by 15, "FizzBuzz"
+    * if not, transform the number into a string
+* Return the new tree
+
+## Approach & Efficiency
+
+
+## Solution

@@ -1,5 +1,5 @@
-import pytest
-from tree import Node, BinaryTree, BST 
+# import pytest
+# from tree import Node, BinaryTree, BST 
 
 # 1. can successfully instantiate an empty tree
 def test_q1():
