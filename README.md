@@ -162,3 +162,17 @@
 
 
 ## Solution
+
+
+# Challenge Summary
+* Find Maximum Value on a Binary Tree
+
+## Challenge Description
+* Write an instance method called find_maximum_value that returns the maximum value stored in a tree. Assume the values stored are numeric
+
+## Approach & Efficiency
+* Space and Time O(n)
+* set the root as the current max, then traverse the tree, swapping out the current max value when a node has a higher value than the current max
+
+## Solution
+![Whiteboard](assets/find-maximum-binary-tree.jpg)
