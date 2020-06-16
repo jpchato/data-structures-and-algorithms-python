@@ -176,3 +176,17 @@
 
 ## Solution
 ![Whiteboard](assets/find-maximum-binary-tree.jpg)
+
+# Challenge Summary
+* Insertion Sort
+
+## Challenge Description
+* Create an insertion sort function that sorts an array
+
+## Approach & Efficiency
+* Time O(n^2)
+* Space O(n)
+
+
+## Solution
+![Whiteboard](assets/insertion_sort.jpg)
