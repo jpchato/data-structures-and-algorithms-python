@@ -190,3 +190,19 @@
 
 ## Solution
 ![Whiteboard](assets/insertion_sort.jpg)
+
+# Challenge Summary
+* Merge Sort
+* [Reference](https://www.geeksforgeeks.org/merge-sort/)
+* [Reference](https://www.pythoncentral.io/merge-sort-implementation-guide/)
+
+## Challenge Description
+* Create merge sort function that sorts an array by splitting it in half, sorting the two halves, then merging
+
+## Approach & Efficiency
+* Time O(nlogn)
+* Space O(n)
+
+
+## Solution
+![Whiteboard](assets/insertion_sort.jpg)
