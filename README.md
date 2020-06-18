@@ -205,4 +205,18 @@
 
 
 ## Solution
-![Whiteboard](assets/insertion_sort.jpg)
+![Whiteboard](assets/quick_sort.jpg)
+
+# Challenge Summary
+* Quick Sort
+* [Reference](https://www.geeksforgeeks.org/quick-sort/)
+* [Reference](https://www.pythoncentral.io/quick-sort-implementation-guide/)
+
+## Challenge Description
+* Create quick sort function that sorts an array by splitting it at a pivot point. There are multiple ways to select a pivot point, the pseudo code has us use the right most element in the array. Values lower than the pivot point are placed to its left and sorted. Values larger than the pivot point are placed to its right and sorted. 
+
+## Approach & Efficiency
+* Time O(n^2)
+
+## Solution
+![Whiteboard](assets/quick_sort.jpg)
