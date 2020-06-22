@@ -220,3 +220,17 @@
 
 ## Solution
 ![Whiteboard](assets/quick_sort.jpg)
+
+# Hashtables
+* Core data structure used by software engineers. Used frequently in real life situations. Hash tables have a constant lookup tim eof O(1)
+
+## Challenge
+* Create a hashtable with add, get, hash, and contains methods.
+
+## Approach & Efficiency
+
+## API
+* [reference](https://coderbook.com/@marcus/how-to-create-a-hash-table-from-scratch-in-python/)
+* [reference](https://www.youtube.com/watch?v=9HFbhPscPU0)
+* [reference](https://www.youtube.com/watch?v=0M_kIqhwbFo)
+* [reference](http://blog.linebylinecode.com/2017/11/24/how-to-implement-a-hash-table-in-python)
