@@ -234,3 +234,22 @@
 * [reference](https://www.youtube.com/watch?v=9HFbhPscPU0)
 * [reference](https://www.youtube.com/watch?v=0M_kIqhwbFo)
 * [reference](http://blog.linebylinecode.com/2017/11/24/how-to-implement-a-hash-table-in-python)
+
+# Challenge Summary
+* find the first repeated word in a book
+
+## Challenge Description
+* Write a function that accepts a lengthy string parameter
+* Return the first word to occur more than once in that provided string
+
+## Approach & Efficiency
+* Create an empty list to keep track of words
+* Convert the string to lowercase
+* for each word in the list
+    * if it's in the list
+        * return the repeated word
+    * else
+        * append it to the empty array
+
+## Solution
+![Whiteboard](/assets/repeated-word.jpg)
