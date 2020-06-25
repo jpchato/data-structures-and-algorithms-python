@@ -1,5 +1,5 @@
 # reference: https://stackoverflow.com/questions/17949517/join-two-python-dictionaries-based-on-same-value-but-different-key-name-like-sq
-# reference: 
+# reference: https://realpython.com/python-zip-function/
 
 def left_join(hashmap_a, hashmap_b):
 
@@ -23,6 +23,7 @@ if __name__ == "__main__":
     list_three = ['fond', 'wrath', 'diligent', 'guide', 'flow']
     list_four = ['averse', 'delight', 'idle', 'follow','jam']
 
+    # The function takes in iterables as arguments and returns an iterator. This iterator generates a series of tuples containing elements from each iterable. zip() can accept any type of iterable, such as files, lists, tuples, dictionaries, sets, and so on.
     hashmap_a = dict(zip(list_one, list_two))
 
     hashmap_b = dict(zip(list_three, list_four))
