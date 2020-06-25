@@ -253,3 +253,19 @@
 
 ## Solution
 ![Whiteboard](/assets/repeated-word.jpg)
+
+# Hashmap LEFT JOIN
+* write a function that left joins two hashmaps into a single data structure
+
+## Challenge
+* write a function that left joins two hashmaps into a single data structure
+* the first parameter is a hashmap that has word strings as keys and antonyms of the key as values
+* the second parameter is a hashmap that has word strings as keys and antonyms of the key as values
+* combine the key and corresponding values into a new data structure according to elft join logic
+
+## Approach & Efficiency
+Time O(n)
+Space O(1)
+
+## Solution
+![Whiteboard](/assets/left-join.jpg)
