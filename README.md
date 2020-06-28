@@ -190,3 +190,114 @@
 
 ## Solution
 ![Whiteboard](assets/insertion_sort.jpg)
+
+# Challenge Summary
+* Merge Sort
+* [Reference](https://www.geeksforgeeks.org/merge-sort/)
+* [Reference](https://www.pythoncentral.io/merge-sort-implementation-guide/)
+
+## Challenge Description
+* Create merge sort function that sorts an array by splitting it in half, sorting the two halves, then merging
+
+## Approach & Efficiency
+* Time O(nlogn)
+* Space O(n)
+
+
+## Solution
+![Whiteboard](assets/quick_sort.jpg)
+
+# Challenge Summary
+* Quick Sort
+* [Reference](https://www.geeksforgeeks.org/quick-sort/)
+* [Reference](https://www.pythoncentral.io/quick-sort-implementation-guide/)
+
+## Challenge Description
+* Create quick sort function that sorts an array by splitting it at a pivot point. There are multiple ways to select a pivot point, the pseudo code has us use the right most element in the array. Values lower than the pivot point are placed to its left and sorted. Values larger than the pivot point are placed to its right and sorted. 
+
+## Approach & Efficiency
+* Time O(n^2)
+
+## Solution
+![Whiteboard](assets/quick_sort.jpg)
+
+# Hashtables
+* Core data structure used by software engineers. Used frequently in real life situations. Hash tables have a constant lookup tim eof O(1)
+
+## Challenge
+* Create a hashtable with add, get, hash, and contains methods.
+
+## Approach & Efficiency
+
+## API
+* [reference](https://coderbook.com/@marcus/how-to-create-a-hash-table-from-scratch-in-python/)
+* [reference](https://www.youtube.com/watch?v=9HFbhPscPU0)
+* [reference](https://www.youtube.com/watch?v=0M_kIqhwbFo)
+* [reference](http://blog.linebylinecode.com/2017/11/24/how-to-implement-a-hash-table-in-python)
+
+# Challenge Summary
+* find the first repeated word in a book
+
+## Challenge Description
+* Write a function that accepts a lengthy string parameter
+* Return the first word to occur more than once in that provided string
+
+## Approach & Efficiency
+* Create an empty list to keep track of words
+* Convert the string to lowercase
+* for each word in the list
+    * if it's in the list
+        * return the repeated word
+    * else
+        * append it to the empty array
+
+## Solution
+![Whiteboard](/assets/repeated-word.jpg)
+
+# Hashmap LEFT JOIN
+* write a function that left joins two hashmaps into a single data structure
+
+## Challenge
+* write a function that left joins two hashmaps into a single data structure
+* the first parameter is a hashmap that has word strings as keys and antonyms of the key as values
+* the second parameter is a hashmap that has word strings as keys and antonyms of the key as values
+* combine the key and corresponding values into a new data structure according to elft join logic
+
+## Approach & Efficiency
+Time O(n)
+Space O(1)
+
+## Solution
+![Whiteboard](/assets/left-join.jpg)
+
+# Graphs
+* A graph is a data structure that specializes in relationships, as it easily conveys
+how data is connected
+
+## Challenge
+* Implement your own Graph. The graph should be represented as an adjacency list, and should include the following methods:
+
+* AddNode()
+    * Adds a new node to the graph
+    * Takes in the value of that node
+    * Returns the added node
+* AddEdge()
+    * Adds a new edge between two nodes in the graph
+    * Include the ability to have a “weight”
+    * Takes in the two nodes to be connected by the edge
+    * Both nodes should already be in the Graph
+* GetNodes()
+    * Returns all of the nodes in the graph as a collection (set, list, or similar)
+* GetNeighbors()
+    * Returns a collection of edges connected to the given node
+    * Takes in a given node
+    * Include the weight of the connection in the returned collection
+* Size()
+    * Returns the total number of nodes in the graph
+
+## Approach & Efficiency
+* time o(1)
+* space o(n)
+
+## API
+* [Class Demo](https://github.com/codefellows/seattle-python-401d14/tree/master/class-35/demo)
