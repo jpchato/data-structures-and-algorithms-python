@@ -301,3 +301,13 @@ how data is connected
 
 ## API
 * [Class Demo](https://github.com/codefellows/seattle-python-401d14/tree/master/class-35/demo)
+
+# Depth First Graph Traversal
+
+## Challenge
+* Create a function that accepts an adjacency list as a graph and conducts a depth first traversal
+## Approach & Efficiency
+
+
+## Solution
+![Whiteboard](/assets/depth-first.jpg)
